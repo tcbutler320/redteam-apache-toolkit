@@ -1,18 +1,17 @@
 # redteam-apache-toolkit
 An apache2 webserver toolkit to enable tool downloads from attacker to target machine via http
 
-
 ## Installation 
 
-To use the redteam-apache-tookit needs to be located inside /var/www/html. There are two options to do this.  
+To use, the redteam-apache-tookit needs to be located inside /var/www/html. There are two options to do this.  
 
-1) Navigate inside /var/www/html, then run  
+1) Navigate inside /var/www/html, then use  
 ```bash
 git clone https://github.com/tcbutler320/redteam-apache-toolkit.git  
 ```  
-2) Clone the repoistory to a location of your choosing, then run 
+2) Clone the repoistory to a location of your choosing, then use 
 ```bash
-cd -r redteam-apache-toolkit /var/www/html
+cp -r redteam-apache-toolkit /var/www/html
 ```
 
 ## Features   
