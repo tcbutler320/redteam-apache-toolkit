@@ -36,6 +36,7 @@ service apache2 start
 
 | Method  | Command   |
 |---|---|
+| wget --recursive --no-parent  | ``` wget --recursive --no-parent http://[host-ip]/redteam-apache2-toolkit```  |
 | wget  | ```wget http://[host-ip]/redteam-apache2-toolkit/[tool category]/[tool name]```  |
 |  curl | ``` curl -o [name the file]  http://[host-ip]/redteam-apache2-toolkit/[tool category]/[tool name] ``` |
 
